@@ -15,5 +15,4 @@ createRoot
 	root templates do: #save.
 	root users do: #save.
 	
-	
 	^ root

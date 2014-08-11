@@ -1,6 +1,12 @@
 public
 setupVoyage
-	| repository |
-	repository := VOMongoRepository database: 'marina'.
+	| mongoHost repository |
+	
+	mongoHost := UIManager default 
+		request: 'MongoDB database url' 
+		initialAnswer: 'localhost' 
+		title: 'MongoDB url'.
+	
+	repository := VOMongoRepository host: mongoHost database: 'marina'.
 	repository enableSingleton.
 	^ repository
