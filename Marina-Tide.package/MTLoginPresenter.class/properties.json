@@ -7,8 +7,8 @@
 	"commentStamp" : "NicolasPetton 2/20/2014 10:58",
 	"instvars" : [
 		"adminPresenter" ],
-	"name" : "MRLoginPresenter",
+	"name" : "MTLoginPresenter",
 	"pools" : [
 		 ],
-	"super" : "MRPresenter",
+	"super" : "MTPresenter",
 	"type" : "normal" }

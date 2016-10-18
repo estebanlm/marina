@@ -4,5 +4,5 @@ serverPath
 		streamContents: [ :stream | 
 			stream
 				nextPut: $/;
-				nextPutAll: MRPagesHandler deployedPath;
+				nextPutAll: MTPagesHandler deployedPath;
 				print: self ]

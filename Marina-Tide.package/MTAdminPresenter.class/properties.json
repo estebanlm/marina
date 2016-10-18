@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NicolasPetton 2/20/2014 11:00",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MRPagesHandler",
+	"name" : "MTAdminPresenter",
 	"pools" : [
 		 ],
-	"super" : "TDHandler",
+	"super" : "MTPresenter",
 	"type" : "normal" }

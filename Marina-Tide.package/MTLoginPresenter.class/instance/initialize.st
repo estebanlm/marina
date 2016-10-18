@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 
-	adminPresenter := MRAdminPresenter new.
+	adminPresenter := MTAdminPresenter new.

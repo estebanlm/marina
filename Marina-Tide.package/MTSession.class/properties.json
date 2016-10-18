@@ -7,7 +7,7 @@
 	"commentStamp" : "NicolasPetton 2/20/2014 10:57",
 	"instvars" : [
 		"user" ],
-	"name" : "MRSession",
+	"name" : "MTSession",
 	"pools" : [
 		 ],
 	"super" : "TDSession",
