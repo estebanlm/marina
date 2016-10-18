@@ -1,3 +1,0 @@
-asserting
-exportedXML
-	^ object contents
