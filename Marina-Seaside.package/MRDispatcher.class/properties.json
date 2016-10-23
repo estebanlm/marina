@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "MRDispatcher",
+	"pools" : [
+		 ],
+	"super" : "WADispatcher",
+	"type" : "normal" }

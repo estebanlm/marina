@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MRPagesHandler",
+	"pools" : [
+		 ],
+	"super" : "MRHandler",
+	"type" : "normal" }
