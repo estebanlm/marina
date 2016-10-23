@@ -1,12 +1,17 @@
 accessing
 baseline: spec
 	<baseline>
+
 	spec
 		for: #pharo
 		do: [ 
-			spec repository: 'github://tide-framework/marina:master'.
-			self tideDependency: spec.
-			self pillarDependency: spec.
-			self voyageDependency: spec.
-			self xmlWriterDependency: spec.
-			spec package: 'Marina' with: [ spec requires: #('Tide' 'Pillar' 'Voyage' 'XMLWriter') ] ]
+			self voyage: spec.
+			self pillar: spec.
+			self mustache: spec.
+			self xmlWriter: spec.
+			self seaside3: spec.
+			
+			spec 
+				package: 'Marina' with: [ spec requires: #('Tide' 'Pillar' 'Voyage' 'XMLWriter') ];
+			 	package: 'Marina-Seaside' with: [ spec requires: #('Marina' 'Seaside3') ];
+				package: 'Marina-Tests' with: [ spec requires: #('Marina') ] ]

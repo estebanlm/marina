@@ -1,4 +1,4 @@
-adding/removing
+factory
 createTemplateTitle: aTitle
 	<action>
 	^ self add: (MRTemplate new

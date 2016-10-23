@@ -1,8 +1,7 @@
 accessing
 serverPath
-	^ String
-		streamContents: [ :stream | 
-			stream
-				nextPut: $/;
-				nextPutAll: MTPagesHandler deployedPath;
-				print: self ]
+	self flag: #todo. "This may be wrong."
+	^ String streamContents: [ :stream | 
+		stream
+			print: self class baseUrl;
+			print: self ]

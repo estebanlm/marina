@@ -1,3 +1,3 @@
 accessing
 baseUrl
-	^ MRRoot default baseUrl ifNil: [ TDServer server url ]
+	^ MRRoot default baseUrl ifNil: [ MRBasePath value ]

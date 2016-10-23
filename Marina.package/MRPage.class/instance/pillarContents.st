@@ -1,3 +1,3 @@
 exporting
 pillarContents
-	^ PRDocumentParser parse: self contents
+	^ PRDocument parser parse: self contents

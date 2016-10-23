@@ -15,8 +15,8 @@ testFindPageWithDuplicatedTitles
 		add: pageAtRoot;
 		add: directory.
 	self deny: pageAtRoot == pageInSubDir.
-	self assert: ({pagePath} asMRPath findFrom: object) == pageAtRoot.
+	self assert: ({pagePath} asMRPath findFrom: object) equals: pageAtRoot.
 	self
 		assert:
 			({directoryPath.
-					pagePath} asMRPath findFrom: object) == pageInSubDir
+					pagePath} asMRPath findFrom: object) equals: pageInSubDir

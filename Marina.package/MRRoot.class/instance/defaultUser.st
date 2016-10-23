@@ -1,3 +1,5 @@
 accessing
 defaultUser
-	^ self users ifEmpty: [ nil ] ifNotEmpty: [ self users first ]
+	^ self users 
+		ifNotEmpty: [ self users first ]
+		ifEmpty: [ nil ] 

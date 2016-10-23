@@ -1,4 +1,4 @@
-adding/removing
+factory
 createUserEmail: aString
 	<action>
 	^ self add: (MRUser new
