@@ -1,0 +1,1 @@
+I'm the entry point for the Marina Admin application.

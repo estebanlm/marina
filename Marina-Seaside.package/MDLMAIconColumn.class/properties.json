@@ -1,14 +1,15 @@
 {
-	"category" : "Marina-Seaside-Handler",
+	"category" : "Marina-Seaside-MDL",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "MRHandler",
+		"icon",
+		"tableDataClass" ],
+	"name" : "MDLMAIconColumn",
 	"pools" : [
 		 ],
-	"super" : "WARequestHandler",
+	"super" : "MAColumn",
 	"type" : "normal" }

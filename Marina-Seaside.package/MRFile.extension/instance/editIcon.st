@@ -1,0 +1,3 @@
+*Marina-Seaside
+editIcon
+	^ 'visibility'

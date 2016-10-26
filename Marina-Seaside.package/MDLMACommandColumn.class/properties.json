@@ -1,14 +1,14 @@
 {
-	"category" : "Marina-Seaside-Handler",
+	"category" : "Marina-Seaside-MDL",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MRPagesHandler",
+		"tableDataClass" ],
+	"name" : "MDLMACommandColumn",
 	"pools" : [
 		 ],
-	"super" : "MRHandler",
+	"super" : "MACommandColumn",
 	"type" : "normal" }

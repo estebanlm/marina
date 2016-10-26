@@ -1,14 +1,14 @@
 {
-	"category" : "Marina-Seaside-Handler",
+	"category" : "Marina-Seaside-View",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MRPagesHandler",
+		"file" ],
+	"name" : "MRFileScreen",
 	"pools" : [
 		 ],
-	"super" : "MRHandler",
+	"super" : "MRBaseScreen",
 	"type" : "normal" }

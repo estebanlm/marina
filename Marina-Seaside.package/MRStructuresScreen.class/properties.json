@@ -1,0 +1,15 @@
+{
+	"category" : "Marina-Seaside-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reportComponent",
+		"structure" ],
+	"name" : "MRStructuresScreen",
+	"pools" : [
+		 ],
+	"super" : "MRBaseScreen",
+	"type" : "normal" }

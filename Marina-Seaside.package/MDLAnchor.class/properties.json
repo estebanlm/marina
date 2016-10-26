@@ -1,14 +1,14 @@
 {
-	"category" : "Marina-Seaside-Handler",
+	"category" : "Marina-Seaside-MDL",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "MRHandler",
+		"tag" ],
+	"name" : "MDLAnchor",
 	"pools" : [
 		 ],
-	"super" : "WARequestHandler",
+	"super" : "WAAnchorTag",
 	"type" : "normal" }
