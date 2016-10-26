@@ -1,4 +1,4 @@
 accessing
 icon
 	<state>
-	^ 'glyphicon glyphicon-pushpin'
+	^ 'insert_invitation'

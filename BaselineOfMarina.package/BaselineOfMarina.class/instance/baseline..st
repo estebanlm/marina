@@ -12,6 +12,6 @@ baseline: spec
 			self seaside3: spec.
 			
 			spec 
-				package: 'Marina' with: [ spec requires: #('Tide' 'Pillar' 'Voyage' 'XMLWriter') ];
+				package: 'Marina' with: [ spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
 			 	package: 'Marina-Seaside' with: [ spec requires: #('Marina' 'Seaside3') ];
 				package: 'Marina-Tests' with: [ spec requires: #('Marina') ] ]

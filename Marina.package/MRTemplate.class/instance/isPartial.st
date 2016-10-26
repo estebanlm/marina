@@ -1,4 +1,4 @@
-private
-partial
+testing
+isPartial
 	<state>
 	^ partial ifNil: [ false ]

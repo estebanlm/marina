@@ -1,6 +1,5 @@
 accessing
 webContents
-	^ self reference binaryReadStreamDo: [ :stream |
-		(ZnEntity bytes:  stream contents)
+	^ (ZnEntity bytes: self binaryContents)
 			contentType: self contentType;
-			yourself ]
+			yourself 

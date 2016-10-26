@@ -1,4 +1,5 @@
 accessing
 icon
 	<state>
-	^ 'glyphicon glyphicon-hdd'
+	self isImage ifTrue: [ ^ 'photo' ].
+	^ 'attach_file'

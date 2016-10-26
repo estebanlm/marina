@@ -1,4 +1,4 @@
 accessing
 icon
 	<state>
-	^ 'glyphicon glyphicon-calendar'
+	^ 'insert_invitation'

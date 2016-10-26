@@ -1,6 +1,6 @@
 public
 startWebserverWith: serverBasePath port: serverPort
 	ZnZincServerAdaptor stop; startOn: serverPort.
-	WAAdmin register: MRDispatcher at: serverBasePath.
+	MRHandler registerAll.
 	"TDServer startOn: serverPort.
 	TDServer server serverUrl: 'http://', (serverBasePath trimRight: [:char | char = $/ ])."
