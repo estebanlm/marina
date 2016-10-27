@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"presenter" ],
+	"name" : "MRPragmaBuilder",
+	"pools" : [
+		 ],
+	"super" : "MAPragmaBuilder",
+	"type" : "normal" }

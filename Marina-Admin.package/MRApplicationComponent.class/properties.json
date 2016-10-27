@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"activeScreen" ],
+	"name" : "MRApplicationComponent",
+	"pools" : [
+		 ],
+	"super" : "MDLApplication",
+	"type" : "normal" }

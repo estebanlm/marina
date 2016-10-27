@@ -1,0 +1,1 @@
+I define a column who renders an icon 

@@ -1,0 +1,3 @@
+*Marina-Admin
+editIcon
+	^ 'visibility'

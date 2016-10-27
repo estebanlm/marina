@@ -1,0 +1,15 @@
+{
+	"category" : "Marina-Admin-MDL",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"icon",
+		"tableDataClass" ],
+	"name" : "MDLMAIconColumn",
+	"pools" : [
+		 ],
+	"super" : "MAColumn",
+	"type" : "normal" }

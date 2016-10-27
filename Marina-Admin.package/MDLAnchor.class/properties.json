@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-MDL",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"tag" ],
+	"name" : "MDLAnchor",
+	"pools" : [
+		 ],
+	"super" : "WAAnchorTag",
+	"type" : "normal" }

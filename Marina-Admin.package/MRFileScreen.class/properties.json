@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"file" ],
+	"name" : "MRFileScreen",
+	"pools" : [
+		 ],
+	"super" : "MRBaseScreen",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-MDL",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tableDataClass" ],
+	"name" : "MDLMACommandColumn",
+	"pools" : [
+		 ],
+	"super" : "MACommandColumn",
+	"type" : "normal" }
