@@ -1,3 +1,0 @@
-*Marina-Seaside
-editIcon
-	^ 'create'
