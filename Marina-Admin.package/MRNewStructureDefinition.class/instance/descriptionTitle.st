@@ -1,6 +1,6 @@
 descriptions
 descriptionTitle
-	"<magritteDescription>"
+	<magritteDescription>
 	
 	^ MAStringDescription new
 		priority: 10;
