@@ -1,4 +1,3 @@
 accessing
 icon
-	<state>
-	^ 'glyphicon glyphicon-user'
+	^ 'account_circle'
