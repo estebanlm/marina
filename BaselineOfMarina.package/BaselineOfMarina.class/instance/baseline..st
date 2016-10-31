@@ -10,8 +10,9 @@ baseline: spec
 			self mustache: spec.
 			self xmlWriter: spec.
 			self seaside3: spec.
+			self ztimestamp: spec.
 			
 			spec 
 				package: 'Marina' with: [ spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
-			 	package: 'Marina-Seaside' with: [ spec requires: #('Marina' 'Seaside3') ];
+			 	package: 'Marina-Seaside' with: [ spec requires: #('Marina' 'Seaside3' 'ZTimestamp') ];
 				package: 'Marina-Tests' with: [ spec requires: #('Marina') ] ]
