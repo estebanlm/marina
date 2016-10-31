@@ -1,5 +1,5 @@
 rendering
 renderScreenContentOn: html
 	html div 
-		class: 'structure-page';
+		class: 'structure structure-page';
 		with: self pageComponent

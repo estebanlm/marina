@@ -1,0 +1,1 @@
+I'm a static library for images and styles used in admin app for marina.

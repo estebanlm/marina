@@ -125,8 +125,23 @@ table.mdl-data-table {
 	text-align: left;
 }
 
-strycture_type { width: 35px; }
-structure_title {  min-width: 180px; }
-structure_local_path {  min-width: 180px; }
-structure_published { width: 40px; }
-column_options { width: 80px }'
+.mdl-data-table .structure_type { width: 35px; }
+.mdl-data-table .structure_title {  min-width: 180px; }
+.mdl-data-table .structure_local_path {  min-width: 180px; }
+.mdl-data-table .structure_published { width: 40px; }
+.mdl-data-table .column_options { width: 80px }
+
+.structure .page_contents div  { width: 100%; }
+.structure .page_contents textarea { 
+	min-height: 300px;
+	font-size: smaller; 
+}
+
+.add_structure { margin-left: 10px; }
+
+.errors { 
+	color: #d50000;
+	font-size: 12px;
+	margin-left: -15px;
+}
+'

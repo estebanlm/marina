@@ -1,0 +1,17 @@
+{
+	"category" : "Marina-Admin-Utils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"structure",
+		"title",
+		"typeClass",
+		"availableStructureClasses" ],
+	"name" : "MRNewStructureDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,8 +3,9 @@ initialize
 	super initialize.
 	"self primaryColor: MDLColor cyan secondaryColor: MDLColor lightBlue."
 	screens := { 
-		MRStructuresScreen new.
+		MRPagesScreen new.
 		MRTemplatesScreen new.
-		MRUsersScreen new }.
+		MRUsersScreen new }, 
+		(self root blogs collect: [ :each | MRBlogScreen structure: each ]).
 	activeScreen := screens first.
 	self initializeScreensLayout

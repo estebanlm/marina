@@ -1,3 +1,3 @@
 private accessing
 rows
-	^ self structure children
+	^ self subclassResponsibility

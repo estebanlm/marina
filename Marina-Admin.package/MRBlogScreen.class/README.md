@@ -1,0 +1,1 @@
+I'm a "blog listing" which means all my children are blog posts (then, I can offer date information and a sort order more apeleable to blogs)

@@ -9,5 +9,6 @@ descriptionTitle
 		accessor: #title;
 		componentClass: MDLMATextInputComponent;
 		cssClass: 'structure_title';
+		"addPatternCondition: '' labelled: 'Input is required'"
 		beRequired;
 		yourself

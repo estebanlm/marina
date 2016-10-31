@@ -3,7 +3,7 @@ createLayout
 	^ MDLLayoutWidget new
 		title: 'Marina';
 		drawerSection: self createDrawer;
-		headerSection: self createHeader;
+		"headerSection: self createHeader;"
 		fixedDrawer;
-		fixedHeader;
+		"fixedHeader;"
 		yourself

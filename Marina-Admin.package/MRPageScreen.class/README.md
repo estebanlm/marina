@@ -1,0 +1,1 @@
+I'm a detail of a page (a web page).

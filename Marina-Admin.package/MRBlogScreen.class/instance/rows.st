@@ -1,3 +1,4 @@
 private accessing
 rows
-	^ super rows sorted: [ :a :b | a publicationDate > b publicationDate ]
+	^ self structure children 
+		sorted: [ :a :b | a publicationDate > b publicationDate ]

@@ -1,0 +1,16 @@
+{
+	"category" : "Marina-Admin-Utils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"format",
+		"formatter",
+		"specification" ],
+	"name" : "MRDateAndTimeFormatter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

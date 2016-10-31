@@ -1,3 +1,3 @@
 private accessing
 reportDescription
-	^ MRStructure reportDescription
+	^ self subclassResponsibility

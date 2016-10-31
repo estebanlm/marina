@@ -1,0 +1,15 @@
+{
+	"category" : "Marina-Admin-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"userComponent" ],
+	"name" : "MRUserScreen",
+	"pools" : [
+		 ],
+	"super" : "MRBaseScreen",
+	"type" : "normal" }

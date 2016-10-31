@@ -1,5 +1,3 @@
 actions
 doEditBlog: aStructure
-	self showScreen: (MRBlogScreen new 
-		structure: aStructure;
-		yourself)
+	self showScreen: (MRBlogScreen structure: aStructure)

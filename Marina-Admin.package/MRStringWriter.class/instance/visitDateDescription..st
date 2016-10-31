@@ -1,0 +1,3 @@
+visiting-description
+visitDateDescription: aDescription
+	self printObjectDescribedBy: aDescription.

@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
+		"structure",
 		"reportComponent",
-		"structure" ],
+		"creationComponent" ],
 	"name" : "MRStructuresScreen",
 	"pools" : [
 		 ],

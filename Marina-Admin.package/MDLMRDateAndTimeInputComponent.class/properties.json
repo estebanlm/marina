@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDLMRDateAndTimeInputComponent",
+	"pools" : [
+		 ],
+	"super" : "MDLMATextInputComponent",
+	"type" : "normal" }

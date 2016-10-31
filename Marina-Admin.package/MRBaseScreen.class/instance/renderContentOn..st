@@ -8,9 +8,10 @@ renderContentOn: html
 				with: [ 
 					self path 
 						do: [ :each | 
-							html anchor 
-								callback: [ self basicShowScreen: each ];
-								with: each title ]
-						separatedBy: [ html space; text: '/'; space ] ].
+							each == self 
+								ifTrue: [  html span: each title ]
+								ifFalse: [ self renderNavigationLinkTo: each on: html ] ]
+						separatedBy: [ html space; text: '/'; space ].
+					self renderActionsOn: html ].
 			html paragraph: self description.
 			self renderScreenContentOn: html ]

@@ -1,0 +1,3 @@
+rendering
+createStructureDefinition
+	^ MRNewStructureDefinition structure: self structure

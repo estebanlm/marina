@@ -1,0 +1,15 @@
+{
+	"category" : "Marina-Admin-View",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 10/31/2016 15:29",
+	"instvars" : [
+		"structure",
+		"structureComponent" ],
+	"name" : "MRNewStructureScreen",
+	"pools" : [
+		 ],
+	"super" : "MRBaseScreen",
+	"type" : "normal" }

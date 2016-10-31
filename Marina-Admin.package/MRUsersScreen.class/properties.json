@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
 	"name" : "MRUsersScreen",
 	"pools" : [
 		 ],
-	"super" : "MRBaseScreen",
+	"super" : "MRStructuresScreen",
 	"type" : "normal" }

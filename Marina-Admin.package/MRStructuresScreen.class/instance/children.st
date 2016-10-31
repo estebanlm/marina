@@ -1,3 +1,3 @@
 hooks
 children
-	^ { self reportComponent }
+	^ super children, { self reportComponent }

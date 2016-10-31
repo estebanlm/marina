@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-MDL",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDLMAValidationDecoration",
+	"pools" : [
+		 ],
+	"super" : "MAValidationDecoration",
+	"type" : "normal" }

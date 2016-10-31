@@ -1,0 +1,1 @@
+I'm a helper class to create new structures.
