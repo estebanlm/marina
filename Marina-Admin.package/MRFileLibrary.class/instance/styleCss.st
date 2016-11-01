@@ -137,7 +137,7 @@ table.mdl-data-table {
 	font-size: smaller; 
 }
 
-.add_structure { margin-left: 10px; }
+.action_button { margin-left: 10px; }
 
 .errors { 
 	color: #d50000;

@@ -1,4 +1,4 @@
 flow
 showScreen: aScreen
-	self initializeScreen: aScreen.
+	aScreen root: self.
 	self basicShowScreen: aScreen

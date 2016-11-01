@@ -1,4 +1,4 @@
 flow
 callScreen: aScreen
-	self initializeScreen: aScreen.
+	aScreen root: self.
 	^ activeScreen call: aScreen

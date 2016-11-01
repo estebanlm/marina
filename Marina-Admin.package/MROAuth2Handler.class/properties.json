@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-Handler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MROAuth2Handler",
+	"pools" : [
+		 ],
+	"super" : "MRHandler",
+	"type" : "normal" }
