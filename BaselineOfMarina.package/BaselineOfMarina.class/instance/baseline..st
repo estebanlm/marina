@@ -13,6 +13,9 @@ baseline: spec
 			self ztimestamp: spec.
 			
 			spec 
-				package: 'Marina' with: [ spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
-			 	package: 'Marina-Seaside' with: [ spec requires: #('Marina' 'Seaside3' 'ZTimestamp') ];
-				package: 'Marina-Tests' with: [ spec requires: #('Marina') ] ]
+				package: 'Marina' with: [ 
+					spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
+			 	package: 'Marina-Seaside' with: [ 
+					spec requires: #('Marina' 'Seaside3' 'ZTimestamp' 'ZincHTTPComponents') ];
+				package: 'Marina-Tests' with: [ 
+					spec requires: #('Marina') ] ]
