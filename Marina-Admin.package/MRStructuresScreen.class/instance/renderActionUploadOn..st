@@ -6,6 +6,6 @@ renderActionUploadOn: html
 		fab;
 		colored;
 		rippleEffect;
-		callback: [ self doUploadFile ];
+		callback: [ self uploadFile ];
 		with: [ html mdlIcon: 'file_upload' ].
 	html mdlTooltip for: 'upload_file'; with: 'Upload a file'

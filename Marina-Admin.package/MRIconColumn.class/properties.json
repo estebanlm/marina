@@ -1,0 +1,15 @@
+{
+	"category" : "Marina-Admin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"icon",
+		"tableDataClass" ],
+	"name" : "MRIconColumn",
+	"pools" : [
+		 ],
+	"super" : "MAColumn",
+	"type" : "normal" }

@@ -7,4 +7,5 @@ descriptionFileModel
 		label: 'File';
 		accessor: #fileModel;
 		beRequired;
+		componentClass: MDLMAFileUploadComponent;
 		yourself

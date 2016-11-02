@@ -1,3 +1,5 @@
 instance creation
 structure: aStructure
-	^ self new structure: aStructure
+	^ self basicNew 
+		initializeStructure: aStructure; 
+		yourself

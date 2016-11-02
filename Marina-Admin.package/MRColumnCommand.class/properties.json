@@ -1,0 +1,16 @@
+{
+	"category" : "Marina-Admin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"selector",
+		"decorateDOMBlock" ],
+	"name" : "MRColumnCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,13 +3,19 @@ createReportComponent
 	^ (MDLMAReport 
 		rows: self rows
 		description: self reportDescription)
-		addColumnFirst: (MDLMAIconColumn new 
+		addColumnFirst: (MRIconColumn new 
 			tableDataClass: 'structure_type';
 			addIconOn: self selector: #iconFor:;
 			yourself);
-		addColumn: (MDLMAIconCommandColumn new
+		addColumn: (MRCommandColumn new
 			addCommandOn: self selector: #editStructure: iconSelector: #editIconFor:;
-			addCommandOn: self selector: #removeStructure: icon: 'clear';
+			addCommand: (MRColumnCommandIcon new 
+				target: self; 
+				selector: #removeStructure:; 
+				icon: 'clear';
+				decorateDOMElementWith: [ :domElement :anObject | 
+					domElement onClick: ('return confirm("', ((self removeTextFor: anObject) copyReplaceAll: '"' with: '\"'), '");') ];
+				yourself);
 			yourself);
 		batchSize: 25;
 		batchSizePossibilities: #(25 50);

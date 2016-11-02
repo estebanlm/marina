@@ -1,0 +1,14 @@
+{
+	"category" : "Marina-Admin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tableDataClass" ],
+	"name" : "MRCommandColumn",
+	"pools" : [
+		 ],
+	"super" : "MACommandColumn",
+	"type" : "normal" }

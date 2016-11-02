@@ -6,7 +6,7 @@ renderActionAddOn: html
 		fab;
 		primaryColor;
 		rippleEffect;
-		callback: [ self doCreateNewStructure ];
+		callback: [ self addStructure ];
 		with: [ html mdlIcon: 'add' ].
 	html mdlTooltip for: 'add_structure'; with: 'Add new structure'.
 			
