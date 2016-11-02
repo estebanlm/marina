@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "MRNewTemplateScreen",
+		"structure",
+		"structureComponent",
+		"uploadComponent" ],
+	"name" : "MRUploadFileScreen",
 	"pools" : [
 		 ],
-	"super" : "MRNewStructureScreen",
+	"super" : "MRBaseScreen",
 	"type" : "normal" }

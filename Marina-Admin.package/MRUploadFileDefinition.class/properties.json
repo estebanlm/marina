@@ -1,14 +1,14 @@
 {
-	"category" : "Marina-Admin-View",
+	"category" : "Marina-Admin-Utils",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "MRNewTemplateScreen",
+		"fileModel" ],
+	"name" : "MRUploadFileDefinition",
 	"pools" : [
 		 ],
-	"super" : "MRNewStructureScreen",
+	"super" : "Object",
 	"type" : "normal" }

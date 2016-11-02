@@ -1,11 +1,11 @@
 private factory
-createStructureComponent
-	^ (self createStructureDefinition asComponent
+createUploadComponent
+	^ (MRUploadFileDefinition new asComponent
 		addDecoration: MDLMAValidationDecoration new;
 		addDecoration: (MDLMAFormDecoration 
 			buttons: { 
 				#cancel -> 'Cancel'.
-				#save -> 'Create'
+				#save -> 'Upload'
 			});
 		onAnswer: [ :v | self answer: v ];
 		yourself)
