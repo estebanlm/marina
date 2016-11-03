@@ -11,11 +11,12 @@ baseline: spec
 			self xmlWriter: spec.
 			self seaside3: spec.
 			self ztimestamp: spec.
+			self zincSSO: spec.
 			
 			spec 
 				package: 'Marina' with: [ 
 					spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
-			 	package: 'Marina-Seaside' with: [ 
+			 	package: 'Marina-Admin' with: [ 
 					spec requires: #('Marina' 'Seaside3' 'ZTimestamp' 'ZincHTTPComponents') ];
 				package: 'Marina-Tests' with: [ 
 					spec requires: #('Marina') ] ]
