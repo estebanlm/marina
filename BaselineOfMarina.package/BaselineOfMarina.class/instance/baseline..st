@@ -10,6 +10,9 @@ baseline: spec
 			self mustache: spec.
 			self xmlWriter: spec.
 			self seaside3: spec.
+			self magritte3: spec.
+			self materialDesignLite: spec.
+			self seaside3: spec.
 			self ztimestamp: spec.
 			self zincSSO: spec.
 			
@@ -17,6 +20,12 @@ baseline: spec
 				package: 'Marina' with: [ 
 					spec requires: #('Pillar' 'Voyage' 'XMLWriter') ];
 			 	package: 'Marina-Admin' with: [ 
-					spec requires: #('Marina' 'Seaside3' 'ZTimestamp' 'ZincHTTPComponents') ];
+					spec requires: #(
+						'Marina' 
+						'Seaside3' 
+						'Magritte3' 
+						'MaterialDesignLite' 
+						'ZTimestamp' 
+						'ZincHTTPComponents') ];
 				package: 'Marina-Tests' with: [ 
 					spec requires: #('Marina') ] ]
