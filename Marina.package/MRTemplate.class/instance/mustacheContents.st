@@ -1,3 +1,3 @@
 exporting
 mustacheContents
-	^ self contents asMustacheTemplate 
+	^ (self contents ifNil: [ '' ]) asMustacheTemplate 

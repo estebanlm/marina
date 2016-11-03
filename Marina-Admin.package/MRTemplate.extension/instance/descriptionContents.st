@@ -8,4 +8,5 @@ descriptionContents
 		accessor: #contents;
 		cssClass: 'page_contents';
 		componentClass: MDLMATextAreaComponent;
+		beRequired;
 		yourself
