@@ -1,7 +1,7 @@
 Marina
 =====
 
-A CMS built on top of [Pillar](http://www.smalltalkhub.com/#!/~Pier/Pillar) and [Seaside](https://seaside.st).
+A CMS built on top of [Pillar](http://www.smalltalkhub.com/#!/~Pier/Pillar) and [Seaside](http://seaside.st).
 
 ## Installation
 
